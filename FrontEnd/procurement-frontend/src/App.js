@@ -8,8 +8,10 @@ import './assets/css/Login-Form-Clean.css';
 import './assets/css/Navigation-with-Button.css';
 import './assets/css/Footer-Clean.css';
 
-import Frame from "./Template/Frame";
+
 import Header from "./Template/Header";
+import Content from "./Template/Content";
+
 
 
 class App extends Component {
@@ -17,7 +19,8 @@ class App extends Component {
         return (
             <div>
                 <Header/>
-<Frame/>
+{/*<Frame/>*/}
+<Content/>
             </div>
         )
     }
