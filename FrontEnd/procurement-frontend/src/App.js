@@ -7,10 +7,11 @@ import './assets/css/styles.css';
 import './assets/css/Login-Form-Clean.css';
 import './assets/css/Navigation-with-Button.css';
 import './assets/css/Footer-Clean.css';
+//import EmpReg from'./Employees/Employee_registration';
 
 
-import Header from "./Template/Header";
-import Content from "./Template/Content";
+import Home from "./Template/Home";
+//import Content from "./Template/Content";
 
 
 
@@ -18,9 +19,10 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <Home/>
+                {/*<EmpReg/>*/}
 {/*<Frame/>*/}
-<Content/>
+{/*<Content/>*/}
             </div>
         )
     }
